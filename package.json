@@ -1,0 +1,23 @@
+{
+  "name": "tailwindproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind build -i Project/main.css -o Public/tailwind.css",
+    "watch": "tailwind build -i Project/main.css -o Public/tailwind.css -w"
+   
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "postcss-cli": "^9.1.0"
+  }
+}
